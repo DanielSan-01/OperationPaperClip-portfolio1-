@@ -10,6 +10,20 @@
   padding: 10px 20px;
   background-color: #1E1E1E;
   color: #fafafa;
+  a {
+    color: #fafafa;
+    text-decoration: none;
+    margin: 5px;
+    font-size: larger;
+  
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  img {
+    width: 14px;
+    margin-top: 1px;
+  }
 }
 .topindex {
   display: grid;
@@ -64,6 +78,17 @@
   bottom: 0px;
   left: 0px;<
 }
+/* .product:hover {
+  background-color: #1E1E1E;
+  color: #fafafa;
+  img {
+    filter: invert(1);
+  }
+  p, a {
+    color: #fafafa;
+  }
+} */
+
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 16px;
